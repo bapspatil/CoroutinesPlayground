@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity"
     tools:ignore="HardcodedText">
 
@@ -13,5 +14,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="async/await - Concurrent tasks" />
+
+    <Button
+        android:id="@+id/btnRunBlocking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="runBlocking - Wait 4 seconds and show Toast" />
 
 </LinearLayout>
